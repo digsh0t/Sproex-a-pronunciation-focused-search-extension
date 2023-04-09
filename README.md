@@ -10,16 +10,16 @@ Sproex is a search extension that focuses on pronunciation and can also be used 
 ## Installation
 
 - Clone or download the code to your local machine and extract it.
-  - For non-tech users, scroll up this page and you will see a green button labeled Code. Click on it and select the option Download ZIP. Once the ZIP file is downloaded to your machine, extract it and remember the path to it.
+  - For non-tech users, scroll up this page and you will see a green button labeled `Code`. Click on it and select the option `Download ZIP`. Once the ZIP file is downloaded to your machine, extract it and remember the path to it.
 - Open Google Chrome.
 - Click on the three dots in the upper-right corner.
 - Select More tools and then Extensions.
-- If you have not enabled Developer mode, enable it by toggling the switch on the top right corner. This is necessary to import the extension.
-- You should now see a menu with the option Load unpacked. Click on this option and navigate to the extracted folder.
-- If you see the message Extension loaded, congratulations, you have successfully installed the extension.
+- If you have not enabled `Developer mode`, enable it by toggling the switch on the top right corner. This is necessary to import the extension.
+- You should now see a menu with the option `Load unpacked`. Click on this option and navigate to the extracted folder.
+- If you see the message `Extension loaded`, congratulations, you have successfully installed the extension.
 
 ## Usage
 
-- To use the extension, simply double-click on any word you want to search and right-click. An option called Search by Cambridge Dictionary will appear.
+- To use the extension, simply double-click on any word you want to search and right-click. An option called `Search by Cambridge Dictionary` will appear.
 - Click on it, and a popup will appear with the information you need.
-- Click the Close button or click outside of the popup to close it. It's that simple!
+- Click the `Close` button or click outside of the popup to close it. It's that simple!
