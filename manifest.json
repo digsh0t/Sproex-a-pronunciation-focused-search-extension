@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Sproex",
+  "description": "An Extension that focuses on pronunciation using Cambridge Dictionary as source",
+  "version": "1.0",
+  "background": {
+    "service_worker": "pageEvent.js"
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://dictionary.cambridge.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["someElements.css"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "icons": {
+    "128": "images/icons8-search-128.png",
+    "64": "images/icons8-search-64.png",
+    "16": "images/icons8-search-16.png"
+  }
+}
