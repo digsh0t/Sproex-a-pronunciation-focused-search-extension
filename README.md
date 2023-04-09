@@ -5,8 +5,8 @@ All sources are directly retrieved from Cambridge Dictionary
 
 ## Note
 
-Due to the $5 fee just to create an account to publish my extension on Google Web Store, I decided not to make this extension available on it and only through here. The installation is right below.
-Currently, this extension is only tested on Google Chrome and I also made this in like 2 days in the weekend so it is prone with error, feel free to create an Issue if you would like to. Please don't judge my frontend skill, it is shit.
+- Due to the $5 fee just to create an account to publish my extension on Google Web Store, I decided not to make this extension available on it and only through here. The installation is right below.
+- Currently, this extension is only tested on **Google Chrome** and I also made this in like 2 days in the weekend so it is prone with error, feel free to create an Issue if you would like to. Please don't judge my frontend skill, it is shit.
 
 ## Installation
 
