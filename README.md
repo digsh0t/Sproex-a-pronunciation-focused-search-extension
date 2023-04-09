@@ -5,7 +5,7 @@ Sproex is a search extension that focuses on pronunciation and can also be used 
 ## Note
 
 - Due to the $5 fee to create an account to publish my extension on the Google Web Store, I decided not to make this extension available there and only offer it here. You can find the installation instructions below.
-- This extension is currently only tested on Google Chrome and was developed in just two days over the weekend, so it may contain errors. Please feel free to create an Issue if you encounter any problems. And please do not judge my frontend skills, they are not the best.
+- This extension is currently only tested on Google Chrome and was developed in just two days over the weekend, so it may contain errors. Please feel free to create an Issue if you encounter any problems. And please do not judge my frontend skills, they are not the best 😤.
 
 ## Installation
 
