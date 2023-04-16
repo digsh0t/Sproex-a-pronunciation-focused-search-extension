@@ -2,12 +2,15 @@
   "manifest_version": 3,
   "name": "Sproex",
   "description": "An Extension that focuses on pronunciation using Cambridge Dictionary as source",
-  "version": "1.0",
+  "version": "1.1",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; connect-src https://dictionary.cambridge.org; default-src 'self'"
+  },
   "background": {
     "service_worker": "pageEvent.js"
   },
   "permissions": [
-    "tabs",
+    "activeTab",
     "contextMenus"
   ],
   "host_permissions": [
