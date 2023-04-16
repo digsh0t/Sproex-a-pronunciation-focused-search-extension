@@ -3,38 +3,61 @@
     padding: 10px;
   }
 
-  #spe-dialog .audioButtonClass {
-    margin-right: 10px;
+  #spe-dialog .audio-button {
     display: inline-block;
-    padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    font-weight: 500;
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 0.25rem;
+    border: none; /* Remove the border */
+    background-color: inherit;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+  }
+  
+  #spe-dialog .audio-button:hover {
+    background-color: #eee;
+  }
+  
+  #spe-dialog .audio-button:active {
+    box-shadow: none;
+  }
+
+  #spe-dialog .strong-text {
+    font-weight: bold !important;
   }
   
   #spe-dialog .paragraph {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial,Helvetica,sans-serif !important;
+  }
+
+  #spe-dialog .paragraph.ipa {
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 16px;
   }
 
   #spe-dialog .normal-p {
-    margin-bottom: 0.5rem; /* adjust the value to your liking */
-    margin-top: 0.5rem;
+    font-family: "Helvetica Neue", Arial, sans-serif; /* Specify a font stack */
+    font-size: 16px; /* Set the font size */
+    line-height: 1.5; /* Set the line height to improve readability */
+    color: #333; /* Set the text color */
+    margin-bottom: 1em; /* Add some space between paragraphs */
   }
 
   #spe-dialog .h2-text {
-    margin-bottom: 0.5rem; /* adjust the value to your liking */
-    margin-top: 0.5rem;
+    margin-bottom: 0.5rem !important; /* adjust the value to your liking */ 
+    margin-top: 0.5rem !important;
+    font-size: 1.5em;
+    font-weight: bold;
   }
 
   #spe-dialog .h3-text {
-    margin-bottom: 0.5rem; /* adjust the value to your liking */
-    margin-top: 0.5rem;
+    margin-bottom: 0.5rem !important; /* adjust the value to your liking */
+    margin-top: 0.5rem !important;
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
   }
   
   #spe-dialog .text-box-div {
@@ -64,4 +87,49 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+  }
+
+
+  #spe-dialog .card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #spe-dialog .card:hover {
+    border-color: #999;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  #spe-dialog .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #spe-dialog .card-title {
+    margin: 0;
+  }
+  
+  #spe-dialog .expand-icon {
+    font-size: 20px;
+  }
+  
+  #spe-dialog .card-body {
+    padding: 10px;
+    display: none;
+  }
+  
+  #spe-dialog .card.is-expanded .card-body {
+    display: block;
+  }
+  
+  
+  #spe-dialog .div-with-bottom-line {
+    border-bottom: 1px solid black;
   }
